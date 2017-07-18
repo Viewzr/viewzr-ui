@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import HeaderBar from '../components/header/header-bar';
+
 class Browse extends Component {
     render() {
         return (
             <div>
-                Browse Page
+            	<HeaderBar />
+                <h1>Browse Page</h1>
             </div>
         );
     }

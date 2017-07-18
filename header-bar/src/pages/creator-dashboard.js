@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import HeaderBar from '../components/header/header-bar';
+
 class CreatorDashboard extends Component {
     render() {
         return (
             <div>
-                CreatorDashboard Page
+            	<HeaderBar />
+                <h1>CreatorDashboard Page</h1>
             </div>
         );
     }
