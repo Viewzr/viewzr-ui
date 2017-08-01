@@ -1,0 +1,42 @@
+.App {
+
+}
+
+.profile-icon {
+  color: #3ae2d0;
+  opacity: 0.8;
+  padding-top: 5px;
+}
+
+.navbar {
+  background-color: #333;
+  font-size: 24px;
+}
+  .navbar img{
+    height: 30px;
+    padding-top: 5px;
+  }
+
+.navbar-brand{
+  background-image: url('/static/images/logo.png');
+}
+
+.navbar-default .navbar-nav>li{
+  padding: 0px 80px 0px 80px;
+}
+
+  .navbar-default .navbar-nav>li:hover{
+    background-color: #202020;
+    transition: background 0.5s linear;
+  }
+
+  .navbar-default .navbar-nav>li>a{
+    color: #D3D3D3;
+  }
+
+  .navbar-default .navbar-nav>li>a:hover{
+    color: white;
+    transition: background 0.5s linear;
+
+  }
+
