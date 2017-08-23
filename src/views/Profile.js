@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import HeaderBar from './header/HeaderBar';
+import NavBar from '../components/header/NavBar';
 
 class Profile extends Component {
     render() {
         return (
             <div>
-            	<HeaderBar />
+            	<NavBar />
                 Profile
             </div>
         );

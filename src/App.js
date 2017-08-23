@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import HeaderBar from './components/header/HeaderBar';
+import NavBar from './components/header/NavBar';
 
 class App extends Component {
   render() {
     return (
       <div>
         <div className="header">
-          <HeaderBar />
+          <NavBar />
         </div>
         <div className="body">
           <h3>Home</h3>

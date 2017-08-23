@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import HeaderBar from './header/HeaderBar';
+import NavBar from '../components/header/NavBar';
 
 class Browse extends Component {
     render() {
         return (
             <div>
-            	<HeaderBar />
+            	<NavBar />
                 Browse
             </div>
         );
